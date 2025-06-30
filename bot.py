@@ -25,10 +25,6 @@ from Zahid.server import web_server
 import asyncio
 from pyrogram import idle
 from plugins.clone import restart_bots
-from Zahid.bot import StreamBot
-from Zahid.utils.keepalive import ping_server  # Your ping script imported here
-from Zahid.bot.clients import initialize_clients
-from plugins.wonders import *
 
 
 
